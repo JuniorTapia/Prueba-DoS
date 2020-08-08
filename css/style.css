@@ -1,0 +1,167 @@
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Teko', sans-serif;
+*/
+
+/**INICIO**/
+
+/***Fondo de Pantalla***/
+body{
+    background-image: url(../img/fondo3.jpg);
+    /*background-repeat: no-repeat;*/
+    background-position: center;
+    background-size: cover;
+}
+
+
+/**General**/
+h1{
+    color:white ;
+}
+
+h2{
+    color:white ;
+}
+
+h3{
+    color:white ;
+}
+
+h4{
+    color: white;
+}
+
+h5{
+    color: white;
+}
+
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/**Header**/
+
+.posicion{
+    height: 75px;
+    min-height: 25px;
+}
+
+.encabezado{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezado p{
+    color: white;
+}
+
+.navegacion{
+    background-color: darkgreen;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion a:hover{
+    background-color: red;
+}
+
+.navegacion a:last-of-type{
+    margin:0;
+}
+
+.paint1{
+    color: blue;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+.paint2{
+    color:  red;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+/**Main**/
+
+.formato{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formato p{
+    color: white; 
+    font-family: sans-serif;  
+}
+
+.parte{
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;
+    line-height: 1;/*interlineado*/
+    
+}
+
+.redonda img{
+    border-radius: 50px;
+}
+
+.paint{
+    background-color: yellowgreen;
+    font-weight: bolder;
+
+}
+
+
+/***Section***/
+
+.navegaseparado{
+    text-align: right;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navegaseparado a{
+    color: white;
+    text-decoration: none;
+}
+
+.final li{
+    color: white;
+}
+
+/**Gusano/Troyano/Spyware**/
+
+.repetir h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: monospace;
+    /*font-size: medium;*/
+}
+
+.repetir p{
+    color: white;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.repetirparte{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
